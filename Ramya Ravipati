@@ -1,0 +1,28 @@
+<!DOCTYPE html> 
+<html>
+    <header>
+        <center>
+            <img src="C:\Users\ravip\OneDrive\Desktop\SASI-LOGO-960x188-1-800x157.png" alt="sasi logo" width="600" height="200"/>
+        </center>
+    </header>
+    <head>
+        <center>
+            <tittle><h1><p><span style="color:crimson">HOME</span>
+            <span style="color:blue">PAGE</span></p></h1></tittle>
+        </center>
+    </head>
+    <body>
+        <div>
+            <footer>
+                <nav>
+                    <h2><a href="C:\Users\ravip\sSIGNUP.html">SIGN UP</a></h2>
+                   <h3> <a href="https://www.sasi.ac.in/sasi-group-of-institutions/">CONTACT US</a></h3>@copyrights.site
+                   <br>
+                   <br>
+                   <img src="C:\Users\ravip\Downloads\images.jpeg" alt="CODECHEF" width="150" height="100"/>
+                    <h2><a href="https://www.codechef.com/users/ramyaravipati">CODECHEF</a></h2>
+                </nav>
+            </footer>
+        </div>
+    </body>
+</html>
