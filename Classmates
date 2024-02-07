@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<style>
+table, th, td {
+  border:1px solid black;
+}
+</style>
+<body>
+
+<h2>MY CLASSMATES</h2>
+
+<table style="width:100%">
+  <tr>
+    <th>SNO</th>
+    <th>REGD NO</th>
+    <th>NAME</th>
+    <th>ADDRESS</th>
+    <th>MOBILE NO</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>22K61A1219</td>
+    <td>Teja sri</td>
+    <td>Tadepalligudem</td>
+    <td>9392950066</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>22K61A1233</td>
+    <td>Lakshmi sai</td>
+    <td>Nallajerla</td>
+    <td>8430257985</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>22K61A1211</td>
+    <td>Sweteha</td>
+    <td>Tanuku</td>
+    <td>8430267589</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>22K61A1249</td>
+    <td>Ramya</td>
+    <td>Marteru</td>
+    <td>9640298055</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>22K61A1207</td>
+    <td>Mounika</td>
+    <td>Tuni</td>
+    <td>9603788055</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>22K61A1228</td>
+    <td>Harika</td>
+    <td>Sidhantham</td>
+    <td>2892347891</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>22K61A1232</td>
+    <td>Karishma</td>
+    <td>Prathipadu</td>
+    <td>8234893864</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>22K61A1256</td>
+    <td>Harini</td>
+    <td>Narayanapuram</td>
+    <td>8476888865</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>22K61A1263</td>
+    <td>pravallika</td>
+    <td>Nallajerla</td>
+    <td>8123456789</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>22K61A1225</td>
+    <td>Reethika</td>
+    <td>Pothavaram</td>
+    <td>2556326307</td>
+  </tr>
+</table>
+
+
+</body>
+</html>
