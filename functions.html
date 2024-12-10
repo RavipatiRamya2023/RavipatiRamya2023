@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Number Checker (Console)</title>
+</head>
+<body>
+    <h1>Prime Number Checker</h1>
+    <label for="number">Enter a number: </label>
+    <input type="number" id="number" placeholder="Enter a number">
+    <button id="checkButton">Check</button>
+
+    <script>
+        // Regular function to read the input value
+        function readNumber() {
+            const num = parseInt(document.getElementById("number").value, 10);
+            if (isNaN(num) || num <= 0) {
+                console.log("Please enter a valid positive number.");
+                return;
+            }
+            verifyPrime(num);
+        }
+
+        // Regular function to verify if a number is prime
+        function verifyPrime(num) {
+            if (num === 1) {
+                console.log("1 is neither prime nor composite.");
+                return;
+            }
+
+            for (let i = 2; i <= Math.sqrt(num); i++) {
+                if (num % i === 0) {
+                    console.log(`${num} is not a prime number.`);
+                    return;
+                }
+            }
+            console.log(`${num} is a prime number.`);
+        }
+
+        // Add event listener to the button
+        document.getElementById("checkButton").addEventListener("click", readNumber);
+    </script>
+</body>
+</html>
