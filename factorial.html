@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factorial Calculator</title>
+</head>
+<body>
+    <script>
+        function factorial(num) {
+            let result = 1;
+            for (let i = 1; i <= num; i++) {
+                result *= i;
+            }
+            return result;
+        }
+        let number = prompt("Enter a number to calculate its factorial:");
+        number = parseInt(number);
+        if (isNaN(number) || number < 0) {
+            alert("Please enter a valid non-negative number.");
+        } else {
+            let result = factorial(number);
+            console.log("The factorial of " + number + " is: " + result);
+        }
+    </script>
+</body>
+</html>
