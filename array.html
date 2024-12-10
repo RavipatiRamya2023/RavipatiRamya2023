@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Arrays and Objects</title>
+</head>
+<body>
+    <h1>JavaScript Arrays and Objects</h1>
+    <button id="demoArray">Demonstrate Array</button>
+    <button id="demoObject">Demonstrate Object</button>
+
+    <script>
+        // Function to demonstrate JavaScript array operations
+        function demonstrateArray() {
+            // Creating an array
+            const fruits = ["Apple", "Banana", "Cherry"];
+
+            // Adding elements
+            fruits.push("Date");
+
+            // Removing the last element
+            const removedFruit = fruits.pop();
+
+            // Iterating over the array
+            console.log("Array elements:");
+            fruits.forEach((fruit, index) => {
+                console.log(`Index ${index}: ${fruit}`);
+            });
+
+            console.log("Removed fruit:", removedFruit);
+        }
+
+        // Function to demonstrate JavaScript object operations
+        function demonstrateObject() {
+            // Creating an object
+            const car = {
+                brand: "Tesla",
+                model: "Model S",
+                year: 2022
+            };
+
+            // Accessing properties
+            console.log("Car brand:", car.brand);
+            console.log("Car model:", car.model);
+
+            // Adding a new property
+            car.color = "Red";
+            console.log("Updated car object:", car);
+
+            // Iterating over the object properties
+            console.log("Car properties:");
+            for (const key in car) {
+                if (car.hasOwnProperty(key)) {
+                    console.log(`${key}: ${car[key]}`);
+                }
+            }
+        }
+
+        // Attach event listeners to buttons
+        document.getElementById("demoArray").addEventListener("click", demonstrateArray);
+        document.getElementById("demoObject").addEventListener("click", demonstrateObject);
+    </script>
+</body>
+</html>
